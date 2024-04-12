@@ -1,0 +1,80 @@
+.Container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.Container2 .Right {
+    width: 50%;
+}
+.Container2 .Right h1 {
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.Container2 .Right h2 {
+    color: #181E4B;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 10px;
+}
+.Container2 .Right .text {
+    color: #2F2F2F;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 25px 0;
+}
+.Container2 .Right .btn4 {
+    width: 169.377px;
+    height: 56.416px;
+    border-radius: 4px;
+    border: none;
+    background: #DF6951;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Container2 .left img {
+    width: 100%;
+}
+.Container2 .Right .numDes {
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+.Container2 .Right .numDes .num ,
+.Container2 .Right .numDes .des1 {
+    text-align: center;
+}
+.Container2 .Right .numDes .num .num1 ,
+.Container2 .Right .numDes .des1 .num1 {
+    padding-bottom: 20px; 
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.Container2 .Right .numDes .num .des ,
+.Container2 .Right .numDes .des1 .des{
+    color: #181E4B;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.8px;
+text-transform: uppercase
+}
+@media (max-width: 992px) {
+    .Container2 .Right {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    
+}

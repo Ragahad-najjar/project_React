@@ -1,0 +1,24 @@
+.Category{
+    text-align: center;
+    margin: 80px;
+}
+.Category h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #DF6951;
+    margin: 10px;
+    line-height: 27px;
+    
+}
+.Category h2 {
+    font-size:50px;
+    font-weight: 700;
+    margin-top: 10px;
+    color:#1E1D4C;
+    line-height: 75px;
+}
+@media (max-width: 992px) {
+    .Category{
+        margin: 0 auto;
+    }
+}

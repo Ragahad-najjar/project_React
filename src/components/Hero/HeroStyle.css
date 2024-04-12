@@ -1,0 +1,14 @@
+.Hero {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 45%; 
+}
+.Hero h1 , .Hero p {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 60px; 
+    text-transform: capitalize;
+    text-align: center;
+    color:#2F2F2F;
+} 

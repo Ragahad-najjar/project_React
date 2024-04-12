@@ -1,0 +1,33 @@
+.SecWan {
+    position: absolute;
+    top: 25%;
+    left: 27%;
+}
+.SecWan p {
+    color: #FFF;
+    font-family: Yesteryear;
+    font-size: 157.426px;
+    font-weight: 400;
+    line-height: 223.678px;
+}
+.SecWan2 {
+    position: absolute;
+    top:40%;
+    left:45%;
+}
+.SecWan2 img {
+    width: 106.546px;
+}
+@media (max-width: 992px) {
+    .SecWan p {
+        font-size: 50px;
+    }
+    .SecWan {
+        position: absolute;
+        left:5%;
+        }
+    .SecWan2 {
+        position: absolute;
+        left: 35%;
+    }
+}

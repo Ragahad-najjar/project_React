@@ -1,0 +1,71 @@
+.CardSec {
+    width: 386px;
+    height: 438px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #F5F3F3;
+} 
+.CardSec .input {
+    border-radius: 4px 4px 0px 0px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.CardSec .input2 {
+    width: 346px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #DF6951;
+    border-radius: 0px 0px 4px 4px ;
+}
+.CardSec .input2 p{
+    color: #F5F3F3;
+    text-align: center;
+    font-size: 12.974px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.CardSec h1 {
+    color: #181E4B;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 0px 10px 0px;
+}
+.CardSec p {
+    color: #181E4B;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.IconStar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-top: 15px;
+}
+.IconStar .star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.IconStar .star p , .IconStar p{
+    color: #262626;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+@media (max-width: 992px) {
+    .CardSec {
+        width: 300PX;
+    }
+    .CardSec img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,58 @@
+.footer{
+    background-image: url('./../../assets/img/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    
+}
+.footer .start p {
+    max-width: 350px;
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    letter-spacing: -0.32px;
+}
+.footer .start .IconImg {
+    display: flex;
+    gap: 24.4px;
+    margin-top: 20px;
+}
+.footer .title {
+    color: #2F2F2F;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footer .middle .list1  , .footer .end .list2 {
+    list-style: none;
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.footer .middle .list1 li , .footer .end .list2 li {
+    padding-bottom: 20px;
+    color: #2F2F2F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+}
+.footer .start , .footer .middle , .footer .end {
+    padding: 20px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px; 
+    letter-spacing: -0.28px;
+    color: #2F2F2F;
+}
